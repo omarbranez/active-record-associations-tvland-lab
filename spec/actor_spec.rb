@@ -59,6 +59,7 @@ describe "Actor" do
     khaleesi.show = got
     khaleesi.save
 
+    
     khaleesi.reload
     expect(emilia.list_roles).to include("Khaleesi - Game of Thrones")
   end
